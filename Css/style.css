@@ -338,40 +338,40 @@
         .progress-bar::before{
             content: "";
             width: 70%;
-            background-color: #292268;
+            background-color: #1a144e;
         }
         .progress-bar_c::before{
             content: "";
             width: 80%;
-            background-color: #292268;
+            background-color: #1a144e;
         }
         .progress-bar_j::before{
             content: "";
             width: 25%;
-            background-color: #292268;
+            background-color:#1a144e;
         }
         .progress-bar_hs::before{
             content: "";
             width: 90%;
-            background-color: #292268;
+            background-color:#1a144e;
         }
         .progress-bar_e::before{
             content: "";
             width: 98%;
-            background-color: #292268;
+            background-color:#1a144e;
         }
         .progress-bar_p::before{
             content: "";
             width: 20%;
-            background-color: #292268;
+            background-color:#1a144e;
         }
         .progress-bar_a::before{
             content: "";
             width: 30%;
-            background-color: #292268;
+            background-color:#1a144e;
         }
         .progress-bar_ig::before{
             content: "";
             width: 60%;
-            background-color: #292268;
+            background-color:#1a144e;
         }
