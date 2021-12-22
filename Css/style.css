@@ -357,7 +357,7 @@
         }
         .progress-bar_e::before{
             content: "";
-            width: 98%;
+            width: 75%;
             background-color:#1a144e;
         }
         .progress-bar_p::before{
