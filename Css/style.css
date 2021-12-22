@@ -337,7 +337,7 @@
         }  
         .progress-bar::before{
             content: "";
-            width: 70%;
+            width: 60%;
             background-color: #1a144e;
         }
         .progress-bar_c::before{
