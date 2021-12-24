@@ -511,15 +511,45 @@
             }
         }
 
-            .hvr-wobble-vertical:hover,
-            .hvr-wobble-vertical:focus,
-            .hvr-wobble-vertical:active {
-                -webkit-animation-name: hvr-wobble-vertical;
-                animation-name: hvr-wobble-vertical;
-                -webkit-animation-duration: 1s;
-                animation-duration: 1s;
-                -webkit-animation-timing-function: ease-in-out;
-                animation-timing-function: ease-in-out;
-                -webkit-animation-iteration-count: 1;
-                animation-iteration-count: 1;
+        .hvr-wobble-vertical:hover,
+        .hvr-wobble-vertical:focus,
+        .hvr-wobble-vertical:active {
+            -webkit-animation-name: hvr-wobble-vertical;
+            animation-name: hvr-wobble-vertical;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+        }
+
+        /* Pulse Shrink */
+        @-webkit-keyframes hvr-pulse-shrink {
+            to {
+                -webkit-transform: scale(0.9);
+                transform: scale(0.9);
             }
+        }
+
+        @keyframes hvr-pulse-shrink {
+            to {
+                -webkit-transform: scale(0.9);
+                transform: scale(0.9);
+            }
+        }
+
+        .hvr-pulse-shrink:hover,
+        .hvr-pulse-shrink:focus,
+        .hvr-pulse-shrink:active {
+            -webkit-animation-name: hvr-pulse-shrink;
+            animation-name: hvr-pulse-shrink;
+            -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+        }
