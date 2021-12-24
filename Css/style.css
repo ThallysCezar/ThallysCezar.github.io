@@ -260,25 +260,6 @@
             background-color: #3f3f3f;
         }
 
-        @keyframes aumentarLargura {
-            from {
-                width: 0;
-            }
-
-            top {
-                width: 100%;
-            }
-        }
-
-        @keyframes aumentarAltura {
-            from {
-                height: 0;
-            }
-
-            top {
-                height: 100%;
-            }
-        }
 
         /* @MEDIA */
 
@@ -409,6 +390,8 @@
             background-color: #1a144e;
         }
 
+
+        /* ANIMAÇÃO HOVER */
         /* Pulse Grow */
         @-webkit-keyframes hvr-pulse-grow {
             to {
@@ -429,121 +412,6 @@
         .hvr-pulse-grow:active {
             -webkit-animation-name: hvr-pulse-grow;
             animation-name: hvr-pulse-grow;
-            -webkit-animation-duration: 0.3s;
-            animation-duration: 0.3s;
-            -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
-            -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-            -webkit-animation-direction: alternate;
-            animation-direction: alternate;
-        }
-
-        .hvr-float:hover,
-        .hvr-float:focus,
-        .hvr-float:active {
-            -webkit-transform: translateY(-8px);
-            transform: translateY(-8px);
-        }
-
-        /* Wobble Vertical */
-        @-webkit-keyframes hvr-wobble-vertical {
-            16.65% {
-                -webkit-transform: translateY(8px);
-                transform: translateY(8px);
-            }
-
-            33.3% {
-                -webkit-transform: translateY(-6px);
-                transform: translateY(-6px);
-            }
-
-            49.95% {
-                -webkit-transform: translateY(4px);
-                transform: translateY(4px);
-            }
-
-            66.6% {
-                -webkit-transform: translateY(-2px);
-                transform: translateY(-2px);
-            }
-
-            83.25% {
-                -webkit-transform: translateY(1px);
-                transform: translateY(1px);
-            }
-
-            100% {
-                -webkit-transform: translateY(0);
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes hvr-wobble-vertical {
-            16.65% {
-                -webkit-transform: translateY(8px);
-                transform: translateY(8px);
-            }
-
-            33.3% {
-                -webkit-transform: translateY(-6px);
-                transform: translateY(-6px);
-            }
-
-            49.95% {
-                -webkit-transform: translateY(4px);
-                transform: translateY(4px);
-            }
-
-            66.6% {
-                -webkit-transform: translateY(-2px);
-                transform: translateY(-2px);
-            }
-
-            83.25% {
-                -webkit-transform: translateY(1px);
-                transform: translateY(1px);
-            }
-
-            100% {
-                -webkit-transform: translateY(0);
-                transform: translateY(0);
-            }
-        }
-
-        .hvr-wobble-vertical:hover,
-        .hvr-wobble-vertical:focus,
-        .hvr-wobble-vertical:active {
-            -webkit-animation-name: hvr-wobble-vertical;
-            animation-name: hvr-wobble-vertical;
-            -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-iteration-count: 1;
-            animation-iteration-count: 1;
-        }
-
-        /* Pulse Shrink */
-        @-webkit-keyframes hvr-pulse-shrink {
-            to {
-                -webkit-transform: scale(0.9);
-                transform: scale(0.9);
-            }
-        }
-
-        @keyframes hvr-pulse-shrink {
-            to {
-                -webkit-transform: scale(0.9);
-                transform: scale(0.9);
-            }
-        }
-
-        .hvr-pulse-shrink:hover,
-        .hvr-pulse-shrink:focus,
-        .hvr-pulse-shrink:active {
-            -webkit-animation-name: hvr-pulse-shrink;
-            animation-name: hvr-pulse-shrink;
             -webkit-animation-duration: 0.3s;
             animation-duration: 0.3s;
             -webkit-animation-timing-function: linear;
