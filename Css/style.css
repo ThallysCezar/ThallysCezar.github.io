@@ -438,3 +438,9 @@
             -webkit-animation-direction: alternate;
             animation-direction: alternate;
         }
+
+        .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+            -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+          }
+          
