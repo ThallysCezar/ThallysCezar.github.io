@@ -335,7 +335,8 @@
         .progress-bar_e,
         .progress-bar_p,
         .progress-bar_a,
-        .progress-bar_ig {
+        .progress-bar_ig
+        .progress-bar_php {
             height: 25px;
             padding: 5px;
             background-color: #ccc;
