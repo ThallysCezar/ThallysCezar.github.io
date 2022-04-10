@@ -336,7 +336,8 @@
         .progress-bar_p,
         .progress-bar_a,
         .progress-bar_ig
-        .progress-bar_php {
+        .progress-bar_php
+        .progress-bar_gg {
             height: 25px;
             padding: 5px;
             background-color: #ccc;
@@ -391,6 +392,11 @@
             background-color: #1a144e;
         }
         .progress-bar_php::before {
+            content: "";
+            width: 60%;
+            background-color: #1a144e;
+        }
+        .progress-bar_gg::before {
             content: "";
             width: 60%;
             background-color: #1a144e;
