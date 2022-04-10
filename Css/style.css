@@ -389,6 +389,11 @@
             width: 60%;
             background-color: #1a144e;
         }
+        .progress-bar_php::before {
+            content: "";
+            width: 60%;
+            background-color: #1a144e;
+        }
 
 
         /* ANIMAÇÃO HOVER */
