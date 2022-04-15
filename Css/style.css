@@ -331,6 +331,7 @@
         .progress-bar,
         .progress-bar_frame,
         .progress-bar_c,
+        .progress-bar_c_plus,
         .progress-bar_j,
         .progress-bar_hs,
         .progress-bar_e,
@@ -360,6 +361,12 @@
         .progress-bar_c::before {
             content: "";
             width: 80%;
+            background-color: #1a144e;
+        }
+
+        .progress-bar_c_plus::before {
+            content: "";
+            width: 50%;
             background-color: #1a144e;
         }
 
