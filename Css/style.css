@@ -329,6 +329,7 @@
         }
 
         .progress-bar,
+        .progress-bar_frame,
         .progress-bar_c,
         .progress-bar_j,
         .progress-bar_hs,
@@ -349,7 +350,13 @@
             width: 60%;
             background-color: #1a144e;
         }
-
+        
+        .progress-bar_frame::before {
+            content: "";
+            width: 30%;
+            background-color: #1a144e;
+        }
+        
         .progress-bar_c::before {
             content: "";
             width: 80%;
