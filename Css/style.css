@@ -366,7 +366,7 @@
 
         .progress-bar_c_plus::before {
             content: "";
-            width: 50%;
+            width: 30%;
             background-color: #1a144e;
         }
 
