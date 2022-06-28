@@ -216,8 +216,8 @@
         }
 
         .cv {
-            height: 50px;
-            width: 50px;
+            height: 200px;
+            width: 200px;
         }
 
         .ativar-dark:checked~.dark-mode label {
