@@ -215,6 +215,11 @@
             transition: all ease .3s;
         }
 
+        .cv {
+            height: 50px;
+            width: 50px;
+        }
+
         .ativar-dark:checked~.dark-mode label {
             background-color: #d4e9ff;
         }
