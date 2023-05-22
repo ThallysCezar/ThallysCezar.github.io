@@ -397,6 +397,10 @@ span {
     width: 85%;
 }
 
+.skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
+    width: 65%;
+}
+
 .services h2 {
   margin-bottom: 5rem;
 }
@@ -734,7 +738,7 @@ span {
 
   .home-content h3 {
     font-size: 2.5rem;
-    padding-top: 8rem;
+    padding-top: 12rem;
   }
 
   .home-content h1 {
