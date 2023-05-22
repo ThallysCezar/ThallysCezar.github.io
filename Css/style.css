@@ -706,6 +706,10 @@ span {
     font-size: 50%;
   }
 
+  .home-content h3 {
+    padding-top: 8rem;
+  }
+
   .education {
     padding: 10rem 3% 5rem 4%;
   }
