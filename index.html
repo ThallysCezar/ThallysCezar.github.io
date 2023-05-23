@@ -334,12 +334,8 @@
           <div class="portfolio-layer">
             <h4>Car Rental Application</h4>
             <p>
-                The rental system project is a small CRUD developed
-                using ASP.NET Core MVC, RazorPages, MySQL, 
-                and Entity Framework Core technologies. 
-                The objective of the project is to create 
-                a system for car rental management in a 
-                fictional company, for learning and experience.
+                CRUD developed using ASP.NET Core MVC, RazorPages, MySQL, 
+                and Entity Framework Core technologies.
             </p>
             <a href="https://github.com/ThallysCezar/System-manager-ASP.NETCore" target="_blank"><i class="bx bx-link-external"></i></a>
           </div>
@@ -350,11 +346,7 @@
           <div class="portfolio-layer">
             <h4>GameChess</h4>
             <p>
-                The code was developed using object-oriented principles
-                and separation of responsibilities in different classes,
-                such as Board, Piece, Player, Movement, among others. 
-                In addition, the code also uses advanced programming 
-                concepts such as polymorphism, inheritance and operator overlap
+              C# program that allows you to play chess in console mode.
             </p>
             <a href="https://github.com/ThallysCezar/GameChess" target="_blank"><i class="bx bx-link-external"></i></a>
           </div>
@@ -365,10 +357,8 @@
           <div class="portfolio-layer">
             <h4>Project Nina</h4>
             <p>
-                In the project I developed, I used JSON server,
-                Angular with TypeScript and Bootstrap.
-                I created a CRUD application with a 
-                login screen, authentication and consumption
+                CRUD application with a login screen,
+                authentication and consumption
                 of a fake API in Angular.
             </p>
             <a href="https://github.com/ThallysCezar/App_Nina" target="_blank"><i class="bx bx-link-external"></i></a>
@@ -380,10 +370,7 @@
           <div class="portfolio-layer">
             <h4>DS Meta</h4>
             <p>
-                Site that displays the sales table and its 
-                data and sends the data to the person, with 
-                the possibility of filtering by date. 
-                Built using technologies: HTML, CSS, TypeScript, 
+                Site Built using technologies: HTML, CSS, TypeScript, 
                 React, Java and Spring Boot, hosted on Heroku and Netlify.
             </p>
             <a href="https://github.com/ThallysCezar/project-devsuperior-spring-react" target="_blank"><i class="bx bx-link-external"></i></a>
@@ -396,10 +383,7 @@
             <h4>ReciclaRec</h4>
             <p>
                 This project was made with React, Bootstrap and React-Icons.
-                Hosted on Netlify. Project made to re-educate people 
-                about sustainability and recycling. Talking a little 
-                about recycling and showing the benefits and harms, 
-                what is Smart City.
+                Hosted on Netlify.
             </p>
             <a href="https://github.com/ThallysCezar/FaculdadeReciclaRec" target="_blank"><i class="bx bx-link-external"></i></a>
           </div>
@@ -410,9 +394,7 @@
           <div class="portfolio-layer">
             <h4>Game MataMosquito</h4>
             <p>
-                In the project I developed, I created a game
-                called "Game Matamosquito" to test knowledge
-                of JavaScript, HTML and CSS, using resources
+                Project in JavaScript, HTML and CSS, using resources
                 from an online course.
             </p>
             <a href="https://github.com/ThallysCezar/Game_MataMosquito" target="_blank"><i class="bx bx-link-external"></i></a>
@@ -424,21 +406,21 @@
     <!-- Contact section design -->
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me!</span></h2>
-      <form action="#">
+      <form action="mailto:thallyspequeno@outlook.com" method="post">
         <div class="input-box">
-          <input type="text" placeholder="Full Name" />
-          <input type="email" placeholder="Email Address" />
+          <input type="text" id="name" placeholder="Full Name" required/>
+          <input type="email" id="email" placeholder="Email Address" required/>
         </div>
         <div class="input-box">
-          <input type="number" placeholder="Mobile Number" />
-          <input type="text" placeholder="Email Subject" />
+          <input type="number" id="phone" placeholder="Mobile Number" required/>
+          <input type="text" placeholder="Your text" />
         </div>
         <textarea
           name=""
-          id=""
+          id="message"
           cols="30"
           rows="10"
-          placeholder="Your Message"
+          placeholder="Your Message" 
         ></textarea>
         <input type="submit" value="Send Message" class="btn" />
       </form>

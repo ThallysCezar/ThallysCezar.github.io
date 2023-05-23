@@ -79,3 +79,34 @@ function baixarCurriculo() {
 // Adiciona um evento de clique ao botão
 var btnDownload = document.getElementById("btn-download");
 btnDownload.addEventListener("click", baixarCurriculo);
+
+// email JS 
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Impede o envio padrão do formulário
+    
+    // Obtenha os valores dos campos do formulário
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+    
+    // Construa o conteúdo do email
+    var subject = 'Formulário de Contato';
+    var body = 'Nome: ' + name + '\nEmail: ' + email + '\nMensagem: ' + message;
+    
+    // Abra o cliente de email padrão do usuário com os dados preenchidos
+    window.location.href = 'mailto:thallyspequeno@outlook.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+});
+
+let portfolioBoxes = document.querySelectorAll('.portfolio-box');
+
+portfolioBoxes.forEach(function(box) {
+  var portfolioLayer = box.querySelector('.portfolio-layer');
+
+  box.addEventListener('mouseenter', function() {
+    portfolioLayer.style.opacity = '1'; // Mostra o texto ao passar o mouse
+  });
+
+  box.addEventListener('mouseleave', function() {
+    portfolioLayer.style.opacity = '0'; // Oculta o texto ao remover o mouse
+  });
+});
