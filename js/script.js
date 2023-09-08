@@ -55,7 +55,11 @@ ScrollReveal().reveal('.home-content p, .about-content ', { origin: 'right' });
 
 /* typed js */
 const typed = new Typed('.multiple-text', {
+<<<<<<< HEAD
     strings: ['Backend Developer with C#', 'Backend Developer with Java', 'Lovely Pixel art'],
+=======
+    strings: ['Backend Developer with Spring Boot', 'Frontend Developer with React', 'Passionate about pixel art.'],
+>>>>>>> 0964916 (Refactor: new feature in portfolio)
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
